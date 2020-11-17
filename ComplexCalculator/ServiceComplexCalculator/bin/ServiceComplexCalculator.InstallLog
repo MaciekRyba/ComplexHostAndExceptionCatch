@@ -1,0 +1,15 @@
+﻿Instalowanie zestawu 'C:\Users\macie\source\repos\ComplexCalculator\ServiceComplexCalculator\bin\ServiceComplexCalculator.exe'.
+Uwzględnione parametry to:
+   i = 
+   logfile = C:\Users\macie\source\repos\ComplexCalculator\ServiceComplexCalculator\bin\ServiceComplexCalculator.InstallLog
+   assemblypath = C:\Users\macie\source\repos\ComplexCalculator\ServiceComplexCalculator\bin\ServiceComplexCalculator.exe
+   logtoconsole = 
+Trwa instalowanie usługi WCFComplexCalculatorService...
+Usługa WCFComplexCalculatorService została zainstalowana pomyślnie.
+Trwa tworzenie źródła EventLog WCFComplexCalculatorService w dzienniku Application...
+Zatwierdzanie zestawu 'C:\Users\macie\source\repos\ComplexCalculator\ServiceComplexCalculator\bin\ServiceComplexCalculator.exe'.
+Uwzględnione parametry to:
+   i = 
+   logfile = C:\Users\macie\source\repos\ComplexCalculator\ServiceComplexCalculator\bin\ServiceComplexCalculator.InstallLog
+   assemblypath = C:\Users\macie\source\repos\ComplexCalculator\ServiceComplexCalculator\bin\ServiceComplexCalculator.exe
+   logtoconsole = 

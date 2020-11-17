@@ -1,0 +1,14 @@
+C:\Users\macie\source\repos\ComplexCalculator\ComplexHost\bin\Debug\Web.config
+C:\Users\macie\source\repos\ComplexCalculator\ComplexHost\bin\Debug\Web.Debug.config
+C:\Users\macie\source\repos\ComplexCalculator\ComplexHost\bin\Debug\Web.Release.config
+C:\Users\macie\source\repos\ComplexCalculator\ComplexHost\bin\Debug\ComplexHost.exe.config
+C:\Users\macie\source\repos\ComplexCalculator\ComplexHost\bin\Debug\ComplexHost.exe
+C:\Users\macie\source\repos\ComplexCalculator\ComplexHost\bin\Debug\ComplexHost.pdb
+C:\Users\macie\source\repos\ComplexCalculator\ComplexHost\obj\Debug\Service.csprojAssemblyReference.cache
+C:\Users\macie\source\repos\ComplexCalculator\ComplexHost\obj\Debug\Service.csproj.CoreCompileInputs.cache
+C:\Users\macie\source\repos\ComplexCalculator\ComplexHost\obj\Debug\Service.csproj.CopyComplete
+C:\Users\macie\source\repos\ComplexCalculator\ComplexHost\obj\Debug\ComplexHost.exe
+C:\Users\macie\source\repos\ComplexCalculator\ComplexHost\obj\Debug\ComplexHost.pdb
+C:\Users\macie\source\repos\ComplexCalculator\ComplexHost\bin\Debug\ServiceComplexCalculator.pdb
+C:\Users\macie\source\repos\ComplexCalculator\ComplexHost\bin\Debug\ServiceComplexCalculator.exe
+C:\Users\macie\source\repos\ComplexCalculator\ComplexHost\bin\Debug\ServiceComplexCalculator.exe.config

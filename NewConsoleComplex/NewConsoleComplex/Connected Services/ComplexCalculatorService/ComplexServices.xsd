@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://Microsoft.ServiceModel.Samples" elementFormDefault="qualified" targetNamespace="http://Microsoft.ServiceModel.Samples" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://localhost:65434/ServiceModelSamples/ComplexServices?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/Microsoft.ServiceModel.Samples" />
+  <xs:element name="AddTwoValue">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q1="http://schemas.datacontract.org/2004/07/Microsoft.ServiceModel.Samples" minOccurs="0" name="FirstComplex" nillable="true" type="q1:ComplexType" />
+        <xs:element xmlns:q2="http://schemas.datacontract.org/2004/07/Microsoft.ServiceModel.Samples" minOccurs="0" name="SecondComplex" nillable="true" type="q2:ComplexType" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="AddTwoValueResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q3="http://schemas.datacontract.org/2004/07/Microsoft.ServiceModel.Samples" minOccurs="0" name="AddTwoValueResult" nillable="true" type="q3:ComplexType" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="AddFourValue">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="real1" type="xs:double" />
+        <xs:element minOccurs="0" name="real2" type="xs:double" />
+        <xs:element minOccurs="0" name="imaginary1" type="xs:double" />
+        <xs:element minOccurs="0" name="imaginary2" type="xs:double" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="AddFourValueResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q4="http://schemas.datacontract.org/2004/07/Microsoft.ServiceModel.Samples" minOccurs="0" name="AddFourValueResult" nillable="true" type="q4:ComplexType" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SubtractTwoValue">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q5="http://schemas.datacontract.org/2004/07/Microsoft.ServiceModel.Samples" minOccurs="0" name="FirstComplex" nillable="true" type="q5:ComplexType" />
+        <xs:element xmlns:q6="http://schemas.datacontract.org/2004/07/Microsoft.ServiceModel.Samples" minOccurs="0" name="SecondComplex" nillable="true" type="q6:ComplexType" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SubtractTwoValueResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q7="http://schemas.datacontract.org/2004/07/Microsoft.ServiceModel.Samples" minOccurs="0" name="SubtractTwoValueResult" nillable="true" type="q7:ComplexType" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SubtractFourValue">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="real1" type="xs:double" />
+        <xs:element minOccurs="0" name="real2" type="xs:double" />
+        <xs:element minOccurs="0" name="imaginary1" type="xs:double" />
+        <xs:element minOccurs="0" name="imaginary2" type="xs:double" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SubtractFourValueResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q8="http://schemas.datacontract.org/2004/07/Microsoft.ServiceModel.Samples" minOccurs="0" name="SubtractFourValueResult" nillable="true" type="q8:ComplexType" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DivisionTwoValue">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q9="http://schemas.datacontract.org/2004/07/Microsoft.ServiceModel.Samples" minOccurs="0" name="FirstComplex" nillable="true" type="q9:ComplexType" />
+        <xs:element xmlns:q10="http://schemas.datacontract.org/2004/07/Microsoft.ServiceModel.Samples" minOccurs="0" name="SecondComplex" nillable="true" type="q10:ComplexType" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DivisionTwoValueResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q11="http://schemas.datacontract.org/2004/07/Microsoft.ServiceModel.Samples" minOccurs="0" name="DivisionTwoValueResult" nillable="true" type="q11:ComplexType" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DivisionFourValue">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="real1" type="xs:double" />
+        <xs:element minOccurs="0" name="real2" type="xs:double" />
+        <xs:element minOccurs="0" name="imaginary1" type="xs:double" />
+        <xs:element minOccurs="0" name="imaginary2" type="xs:double" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DivisionFourValueResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q12="http://schemas.datacontract.org/2004/07/Microsoft.ServiceModel.Samples" minOccurs="0" name="DivisionFourValueResult" nillable="true" type="q12:ComplexType" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="MultiplyTwoValue">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q13="http://schemas.datacontract.org/2004/07/Microsoft.ServiceModel.Samples" minOccurs="0" name="FirstComplex" nillable="true" type="q13:ComplexType" />
+        <xs:element xmlns:q14="http://schemas.datacontract.org/2004/07/Microsoft.ServiceModel.Samples" minOccurs="0" name="SecondComplex" nillable="true" type="q14:ComplexType" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="MultiplyTwoValueResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q15="http://schemas.datacontract.org/2004/07/Microsoft.ServiceModel.Samples" minOccurs="0" name="MultiplyTwoValueResult" nillable="true" type="q15:ComplexType" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="MultiplyFourValue">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="real1" type="xs:double" />
+        <xs:element minOccurs="0" name="real2" type="xs:double" />
+        <xs:element minOccurs="0" name="imaginary1" type="xs:double" />
+        <xs:element minOccurs="0" name="imaginary2" type="xs:double" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="MultiplyFourValueResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q16="http://schemas.datacontract.org/2004/07/Microsoft.ServiceModel.Samples" minOccurs="0" name="MultiplyFourValueResult" nillable="true" type="q16:ComplexType" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

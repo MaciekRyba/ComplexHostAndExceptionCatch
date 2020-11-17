@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30523.141
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Service", "ComplexHost\Service.csproj", "{B4F74E54-7FDF-48EA-81F6-502FB8029F51}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceComplexCalculator", "ServiceComplexCalculator\ServiceComplexCalculator.csproj", "{672B237B-79AD-4D77-A495-AE28CBE84104}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B4F74E54-7FDF-48EA-81F6-502FB8029F51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4F74E54-7FDF-48EA-81F6-502FB8029F51}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4F74E54-7FDF-48EA-81F6-502FB8029F51}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4F74E54-7FDF-48EA-81F6-502FB8029F51}.Release|Any CPU.Build.0 = Release|Any CPU
+		{672B237B-79AD-4D77-A495-AE28CBE84104}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{672B237B-79AD-4D77-A495-AE28CBE84104}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{672B237B-79AD-4D77-A495-AE28CBE84104}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{672B237B-79AD-4D77-A495-AE28CBE84104}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9466E260-CB99-461C-B95C-7D769853BE0E}
+	EndGlobalSection
+EndGlobal

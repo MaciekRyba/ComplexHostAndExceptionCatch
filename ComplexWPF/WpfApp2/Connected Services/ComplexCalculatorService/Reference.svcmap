@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="1f130883-7bc0-40a9-99fb-54fb7f84f505" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:65434/" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="item.xsd" MetadataType="Schema" ID="50607adc-8ceb-4939-b0da-f0cf163a955a" SourceId="1" SourceUrl="http://localhost:65434/?xsd=xsd2" />
+    <MetadataFile FileName="item.wsdl" MetadataType="Wsdl" ID="79f5525d-b944-4901-903c-14fff5e9c86d" SourceId="1" SourceUrl="http://localhost:65434/?wsdl=wsdl0" />
+    <MetadataFile FileName="item1.xsd" MetadataType="Schema" ID="b07c414e-f988-46c1-9777-c64b03c5079b" SourceId="1" SourceUrl="http://localhost:65434/?xsd=xsd0" />
+    <MetadataFile FileName="item.disco" MetadataType="Disco" ID="7695395f-f7e7-4358-908f-f36a042a56f9" SourceId="1" SourceUrl="http://localhost:65434/?disco" />
+    <MetadataFile FileName="item2.xsd" MetadataType="Schema" ID="a1b0a366-89c8-47b1-8492-d4df57b96b2e" SourceId="1" SourceUrl="http://localhost:65434/?xsd=xsd1" />
+    <MetadataFile FileName="ComplexCalculatorService.wsdl" MetadataType="Wsdl" ID="57a63a73-49cc-4170-bb8c-6c700742d750" SourceId="1" SourceUrl="http://localhost:65434/?wsdl" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

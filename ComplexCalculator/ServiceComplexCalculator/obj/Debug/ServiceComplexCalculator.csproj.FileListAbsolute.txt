@@ -1,0 +1,9 @@
+C:\Users\macie\source\repos\ComplexCalculator\ServiceComplexCalculator\bin\ServiceComplexCalculator.pdb
+C:\Users\macie\source\repos\ComplexCalculator\ServiceComplexCalculator\obj\Debug\ServiceComplexCalculator.csproj.CoreCompileInputs.cache
+C:\Users\macie\source\repos\ComplexCalculator\ServiceComplexCalculator\obj\Debug\ServiceComplexCalculator.pdb
+C:\Users\macie\source\repos\ComplexCalculator\ServiceComplexCalculator\bin\Web.config
+C:\Users\macie\source\repos\ComplexCalculator\ServiceComplexCalculator\bin\Web.Debug.config
+C:\Users\macie\source\repos\ComplexCalculator\ServiceComplexCalculator\bin\Web.Release.config
+C:\Users\macie\source\repos\ComplexCalculator\ServiceComplexCalculator\bin\ServiceComplexCalculator.exe.config
+C:\Users\macie\source\repos\ComplexCalculator\ServiceComplexCalculator\bin\ServiceComplexCalculator.exe
+C:\Users\macie\source\repos\ComplexCalculator\ServiceComplexCalculator\obj\Debug\ServiceComplexCalculator.exe

@@ -1,0 +1,39 @@
+﻿Instalowanie zestawu 'C:\Users\macie\source\repos\ComplexCalculator\ComplexHost\bin\Debug\ComplexHost.exe'.
+Uwzględnione parametry to:
+   logtoconsole = 
+   logfile = C:\Users\macie\source\repos\ComplexCalculator\ComplexHost\bin\Debug\ComplexHost.InstallLog
+   assemblypath = C:\Users\macie\source\repos\ComplexCalculator\ComplexHost\bin\Debug\ComplexHost.exe
+Nie można znaleźć instalatorów publicznych z atrybutem RunInstallerAttribute.Yes w zestawie C:\Users\macie\source\repos\ComplexCalculator\ComplexHost\bin\Debug\ComplexHost.exe.
+Zatwierdzanie zestawu 'C:\Users\macie\source\repos\ComplexCalculator\ComplexHost\bin\Debug\ComplexHost.exe'.
+Uwzględnione parametry to:
+   logtoconsole = 
+   logfile = C:\Users\macie\source\repos\ComplexCalculator\ComplexHost\bin\Debug\ComplexHost.InstallLog
+   assemblypath = C:\Users\macie\source\repos\ComplexCalculator\ComplexHost\bin\Debug\ComplexHost.exe
+Nie można znaleźć instalatorów publicznych z atrybutem RunInstallerAttribute.Yes w zestawie C:\Users\macie\source\repos\ComplexCalculator\ComplexHost\bin\Debug\ComplexHost.exe.
+Usuwanie pliku InstallState z powodu braku instalatorów.
+Instalowanie zestawu 'C:\Users\macie\source\repos\ComplexCalculator\ComplexHost\bin\Debug\ComplexHost.exe'.
+Uwzględnione parametry to:
+   logtoconsole = 
+   logfile = C:\Users\macie\source\repos\ComplexCalculator\ComplexHost\bin\Debug\ComplexHost.InstallLog
+   assemblypath = C:\Users\macie\source\repos\ComplexCalculator\ComplexHost\bin\Debug\ComplexHost.exe
+Nie można znaleźć instalatorów publicznych z atrybutem RunInstallerAttribute.Yes w zestawie C:\Users\macie\source\repos\ComplexCalculator\ComplexHost\bin\Debug\ComplexHost.exe.
+Zatwierdzanie zestawu 'C:\Users\macie\source\repos\ComplexCalculator\ComplexHost\bin\Debug\ComplexHost.exe'.
+Uwzględnione parametry to:
+   logtoconsole = 
+   logfile = C:\Users\macie\source\repos\ComplexCalculator\ComplexHost\bin\Debug\ComplexHost.InstallLog
+   assemblypath = C:\Users\macie\source\repos\ComplexCalculator\ComplexHost\bin\Debug\ComplexHost.exe
+Nie można znaleźć instalatorów publicznych z atrybutem RunInstallerAttribute.Yes w zestawie C:\Users\macie\source\repos\ComplexCalculator\ComplexHost\bin\Debug\ComplexHost.exe.
+Usuwanie pliku InstallState z powodu braku instalatorów.
+Instalowanie zestawu 'C:\Users\macie\source\repos\ComplexCalculator\ComplexHost\bin\debug\ComplexHost.exe'.
+Uwzględnione parametry to:
+   logtoconsole = 
+   logfile = C:\Users\macie\source\repos\ComplexCalculator\ComplexHost\bin\debug\ComplexHost.InstallLog
+   assemblypath = C:\Users\macie\source\repos\ComplexCalculator\ComplexHost\bin\debug\ComplexHost.exe
+Nie można znaleźć instalatorów publicznych z atrybutem RunInstallerAttribute.Yes w zestawie C:\Users\macie\source\repos\ComplexCalculator\ComplexHost\bin\debug\ComplexHost.exe.
+Zatwierdzanie zestawu 'C:\Users\macie\source\repos\ComplexCalculator\ComplexHost\bin\debug\ComplexHost.exe'.
+Uwzględnione parametry to:
+   logtoconsole = 
+   logfile = C:\Users\macie\source\repos\ComplexCalculator\ComplexHost\bin\debug\ComplexHost.InstallLog
+   assemblypath = C:\Users\macie\source\repos\ComplexCalculator\ComplexHost\bin\debug\ComplexHost.exe
+Nie można znaleźć instalatorów publicznych z atrybutem RunInstallerAttribute.Yes w zestawie C:\Users\macie\source\repos\ComplexCalculator\ComplexHost\bin\debug\ComplexHost.exe.
+Usuwanie pliku InstallState z powodu braku instalatorów.

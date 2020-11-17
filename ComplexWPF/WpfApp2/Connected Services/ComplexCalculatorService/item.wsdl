@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://Microsoft.ServiceModel.Samples" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" targetNamespace="http://Microsoft.ServiceModel.Samples" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://Microsoft.ServiceModel.Samples/Imports">
+      <xsd:import schemaLocation="http://localhost:65434/?xsd=xsd0" namespace="http://Microsoft.ServiceModel.Samples" />
+      <xsd:import schemaLocation="http://localhost:65434/?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/Microsoft.ServiceModel.Samples" />
+      <xsd:import schemaLocation="http://localhost:65434/?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="ComplexServices_AddTwoValue_InputMessage">
+    <wsdl:part name="parameters" element="tns:AddTwoValue" />
+  </wsdl:message>
+  <wsdl:message name="ComplexServices_AddTwoValue_OutputMessage">
+    <wsdl:part name="parameters" element="tns:AddTwoValueResponse" />
+  </wsdl:message>
+  <wsdl:message name="ComplexServices_AddTwoValue_CustomExceptionDetailsFault_FaultMessage">
+    <wsdl:part xmlns:q1="http://schemas.datacontract.org/2004/07/Microsoft.ServiceModel.Samples" name="detail" element="q1:CustomExceptionDetails" />
+  </wsdl:message>
+  <wsdl:message name="ComplexServices_AddTwoValue_DivideByZeroFaultFault_FaultMessage">
+    <wsdl:part xmlns:q2="http://schemas.datacontract.org/2004/07/Microsoft.ServiceModel.Samples" name="detail" element="q2:DivideByZeroFault" />
+  </wsdl:message>
+  <wsdl:message name="ComplexServices_AddFourValue_InputMessage">
+    <wsdl:part name="parameters" element="tns:AddFourValue" />
+  </wsdl:message>
+  <wsdl:message name="ComplexServices_AddFourValue_OutputMessage">
+    <wsdl:part name="parameters" element="tns:AddFourValueResponse" />
+  </wsdl:message>
+  <wsdl:message name="ComplexServices_SubtractTwoValue_InputMessage">
+    <wsdl:part name="parameters" element="tns:SubtractTwoValue" />
+  </wsdl:message>
+  <wsdl:message name="ComplexServices_SubtractTwoValue_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SubtractTwoValueResponse" />
+  </wsdl:message>
+  <wsdl:message name="ComplexServices_SubtractTwoValue_CustomExceptionDetailsFault_FaultMessage">
+    <wsdl:part xmlns:q3="http://schemas.datacontract.org/2004/07/Microsoft.ServiceModel.Samples" name="detail" element="q3:CustomExceptionDetails" />
+  </wsdl:message>
+  <wsdl:message name="ComplexServices_SubtractTwoValue_DivideByZeroFaultFault_FaultMessage">
+    <wsdl:part xmlns:q4="http://schemas.datacontract.org/2004/07/Microsoft.ServiceModel.Samples" name="detail" element="q4:DivideByZeroFault" />
+  </wsdl:message>
+  <wsdl:message name="ComplexServices_SubtractFourValue_InputMessage">
+    <wsdl:part name="parameters" element="tns:SubtractFourValue" />
+  </wsdl:message>
+  <wsdl:message name="ComplexServices_SubtractFourValue_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SubtractFourValueResponse" />
+  </wsdl:message>
+  <wsdl:message name="ComplexServices_DivisionTwoValue_InputMessage">
+    <wsdl:part name="parameters" element="tns:DivisionTwoValue" />
+  </wsdl:message>
+  <wsdl:message name="ComplexServices_DivisionTwoValue_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DivisionTwoValueResponse" />
+  </wsdl:message>
+  <wsdl:message name="ComplexServices_DivisionTwoValue_CustomExceptionDetailsFault_FaultMessage">
+    <wsdl:part xmlns:q5="http://schemas.datacontract.org/2004/07/Microsoft.ServiceModel.Samples" name="detail" element="q5:CustomExceptionDetails" />
+  </wsdl:message>
+  <wsdl:message name="ComplexServices_DivisionTwoValue_DivideByZeroFaultFault_FaultMessage">
+    <wsdl:part xmlns:q6="http://schemas.datacontract.org/2004/07/Microsoft.ServiceModel.Samples" name="detail" element="q6:DivideByZeroFault" />
+  </wsdl:message>
+  <wsdl:message name="ComplexServices_DivisionFourValue_InputMessage">
+    <wsdl:part name="parameters" element="tns:DivisionFourValue" />
+  </wsdl:message>
+  <wsdl:message name="ComplexServices_DivisionFourValue_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DivisionFourValueResponse" />
+  </wsdl:message>
+  <wsdl:message name="ComplexServices_DivisionFourValue_CustomExceptionDetailsFault_FaultMessage">
+    <wsdl:part xmlns:q7="http://schemas.datacontract.org/2004/07/Microsoft.ServiceModel.Samples" name="detail" element="q7:CustomExceptionDetails" />
+  </wsdl:message>
+  <wsdl:message name="ComplexServices_DivisionFourValue_DivideByZeroFaultFault_FaultMessage">
+    <wsdl:part xmlns:q8="http://schemas.datacontract.org/2004/07/Microsoft.ServiceModel.Samples" name="detail" element="q8:DivideByZeroFault" />
+  </wsdl:message>
+  <wsdl:message name="ComplexServices_MultiplyTwoValue_InputMessage">
+    <wsdl:part name="parameters" element="tns:MultiplyTwoValue" />
+  </wsdl:message>
+  <wsdl:message name="ComplexServices_MultiplyTwoValue_OutputMessage">
+    <wsdl:part name="parameters" element="tns:MultiplyTwoValueResponse" />
+  </wsdl:message>
+  <wsdl:message name="ComplexServices_MultiplyTwoValue_CustomExceptionDetailsFault_FaultMessage">
+    <wsdl:part xmlns:q9="http://schemas.datacontract.org/2004/07/Microsoft.ServiceModel.Samples" name="detail" element="q9:CustomExceptionDetails" />
+  </wsdl:message>
+  <wsdl:message name="ComplexServices_MultiplyTwoValue_DivideByZeroFaultFault_FaultMessage">
+    <wsdl:part xmlns:q10="http://schemas.datacontract.org/2004/07/Microsoft.ServiceModel.Samples" name="detail" element="q10:DivideByZeroFault" />
+  </wsdl:message>
+  <wsdl:message name="ComplexServices_MultiplyFourValue_InputMessage">
+    <wsdl:part name="parameters" element="tns:MultiplyFourValue" />
+  </wsdl:message>
+  <wsdl:message name="ComplexServices_MultiplyFourValue_OutputMessage">
+    <wsdl:part name="parameters" element="tns:MultiplyFourValueResponse" />
+  </wsdl:message>
+  <wsdl:message name="ComplexServices_MultiplyFourValue_CustomExceptionDetailsFault_FaultMessage">
+    <wsdl:part xmlns:q11="http://schemas.datacontract.org/2004/07/Microsoft.ServiceModel.Samples" name="detail" element="q11:CustomExceptionDetails" />
+  </wsdl:message>
+  <wsdl:message name="ComplexServices_MultiplyFourValue_DivideByZeroFaultFault_FaultMessage">
+    <wsdl:part xmlns:q12="http://schemas.datacontract.org/2004/07/Microsoft.ServiceModel.Samples" name="detail" element="q12:DivideByZeroFault" />
+  </wsdl:message>
+  <wsdl:portType name="ComplexServices">
+    <wsdl:operation name="AddTwoValue">
+      <wsdl:input wsaw:Action="http://Microsoft.ServiceModel.Samples/ComplexServices/AddTwoValue" message="tns:ComplexServices_AddTwoValue_InputMessage" />
+      <wsdl:output wsaw:Action="http://Microsoft.ServiceModel.Samples/ComplexServices/AddTwoValueResponse" message="tns:ComplexServices_AddTwoValue_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://Microsoft.ServiceModel.Samples/ComplexServices/AddTwoValueCustomExceptionDetailsFault" name="CustomExceptionDetailsFault" message="tns:ComplexServices_AddTwoValue_CustomExceptionDetailsFault_FaultMessage" />
+      <wsdl:fault wsaw:Action="http://Microsoft.ServiceModel.Samples/ComplexServices/AddTwoValueDivideByZeroFaultFault" name="DivideByZeroFaultFault" message="tns:ComplexServices_AddTwoValue_DivideByZeroFaultFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="AddFourValue">
+      <wsdl:input wsaw:Action="http://Microsoft.ServiceModel.Samples/ComplexServices/AddFourValue" message="tns:ComplexServices_AddFourValue_InputMessage" />
+      <wsdl:output wsaw:Action="http://Microsoft.ServiceModel.Samples/ComplexServices/AddFourValueResponse" message="tns:ComplexServices_AddFourValue_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SubtractTwoValue">
+      <wsdl:input wsaw:Action="http://Microsoft.ServiceModel.Samples/ComplexServices/SubtractTwoValue" message="tns:ComplexServices_SubtractTwoValue_InputMessage" />
+      <wsdl:output wsaw:Action="http://Microsoft.ServiceModel.Samples/ComplexServices/SubtractTwoValueResponse" message="tns:ComplexServices_SubtractTwoValue_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://Microsoft.ServiceModel.Samples/ComplexServices/SubtractTwoValueCustomExceptionDetailsFault" name="CustomExceptionDetailsFault" message="tns:ComplexServices_SubtractTwoValue_CustomExceptionDetailsFault_FaultMessage" />
+      <wsdl:fault wsaw:Action="http://Microsoft.ServiceModel.Samples/ComplexServices/SubtractTwoValueDivideByZeroFaultFault" name="DivideByZeroFaultFault" message="tns:ComplexServices_SubtractTwoValue_DivideByZeroFaultFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SubtractFourValue">
+      <wsdl:input wsaw:Action="http://Microsoft.ServiceModel.Samples/ComplexServices/SubtractFourValue" message="tns:ComplexServices_SubtractFourValue_InputMessage" />
+      <wsdl:output wsaw:Action="http://Microsoft.ServiceModel.Samples/ComplexServices/SubtractFourValueResponse" message="tns:ComplexServices_SubtractFourValue_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DivisionTwoValue">
+      <wsdl:input wsaw:Action="http://Microsoft.ServiceModel.Samples/ComplexServices/DivisionTwoValue" message="tns:ComplexServices_DivisionTwoValue_InputMessage" />
+      <wsdl:output wsaw:Action="http://Microsoft.ServiceModel.Samples/ComplexServices/DivisionTwoValueResponse" message="tns:ComplexServices_DivisionTwoValue_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://Microsoft.ServiceModel.Samples/ComplexServices/DivisionTwoValueCustomExceptionDetailsFault" name="CustomExceptionDetailsFault" message="tns:ComplexServices_DivisionTwoValue_CustomExceptionDetailsFault_FaultMessage" />
+      <wsdl:fault wsaw:Action="http://Microsoft.ServiceModel.Samples/ComplexServices/DivisionTwoValueDivideByZeroFaultFault" name="DivideByZeroFaultFault" message="tns:ComplexServices_DivisionTwoValue_DivideByZeroFaultFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DivisionFourValue">
+      <wsdl:input wsaw:Action="http://Microsoft.ServiceModel.Samples/ComplexServices/DivisionFourValue" message="tns:ComplexServices_DivisionFourValue_InputMessage" />
+      <wsdl:output wsaw:Action="http://Microsoft.ServiceModel.Samples/ComplexServices/DivisionFourValueResponse" message="tns:ComplexServices_DivisionFourValue_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://Microsoft.ServiceModel.Samples/ComplexServices/DivisionFourValueCustomExceptionDetailsFault" name="CustomExceptionDetailsFault" message="tns:ComplexServices_DivisionFourValue_CustomExceptionDetailsFault_FaultMessage" />
+      <wsdl:fault wsaw:Action="http://Microsoft.ServiceModel.Samples/ComplexServices/DivisionFourValueDivideByZeroFaultFault" name="DivideByZeroFaultFault" message="tns:ComplexServices_DivisionFourValue_DivideByZeroFaultFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="MultiplyTwoValue">
+      <wsdl:input wsaw:Action="http://Microsoft.ServiceModel.Samples/ComplexServices/MultiplyTwoValue" message="tns:ComplexServices_MultiplyTwoValue_InputMessage" />
+      <wsdl:output wsaw:Action="http://Microsoft.ServiceModel.Samples/ComplexServices/MultiplyTwoValueResponse" message="tns:ComplexServices_MultiplyTwoValue_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://Microsoft.ServiceModel.Samples/ComplexServices/MultiplyTwoValueCustomExceptionDetailsFault" name="CustomExceptionDetailsFault" message="tns:ComplexServices_MultiplyTwoValue_CustomExceptionDetailsFault_FaultMessage" />
+      <wsdl:fault wsaw:Action="http://Microsoft.ServiceModel.Samples/ComplexServices/MultiplyTwoValueDivideByZeroFaultFault" name="DivideByZeroFaultFault" message="tns:ComplexServices_MultiplyTwoValue_DivideByZeroFaultFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="MultiplyFourValue">
+      <wsdl:input wsaw:Action="http://Microsoft.ServiceModel.Samples/ComplexServices/MultiplyFourValue" message="tns:ComplexServices_MultiplyFourValue_InputMessage" />
+      <wsdl:output wsaw:Action="http://Microsoft.ServiceModel.Samples/ComplexServices/MultiplyFourValueResponse" message="tns:ComplexServices_MultiplyFourValue_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://Microsoft.ServiceModel.Samples/ComplexServices/MultiplyFourValueCustomExceptionDetailsFault" name="CustomExceptionDetailsFault" message="tns:ComplexServices_MultiplyFourValue_CustomExceptionDetailsFault_FaultMessage" />
+      <wsdl:fault wsaw:Action="http://Microsoft.ServiceModel.Samples/ComplexServices/MultiplyFourValueDivideByZeroFaultFault" name="DivideByZeroFaultFault" message="tns:ComplexServices_MultiplyFourValue_DivideByZeroFaultFault_FaultMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+</wsdl:definitions>
